@@ -1,0 +1,253 @@
+[0.121s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.121s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b6c8e8a0620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b6c8e8a0230>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b6c8e8a0230>>, mixin_verb=('build',))
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.165s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/drwise/arduino_ws'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_cpp_examples) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_cpp_examples' with type 'ros.ament_cmake' and name 'arduino_cpp_examples'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_description) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_description' with type 'ros.ament_cmake' and name 'arduino_description'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_py_examples) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_py_examples' with type 'ros.ament_python' and name 'arduino_py_examples'
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.220s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/drwise/arduino_ws/install
+[0.223s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 409 installed packages in /opt/ros/jazzy
+[0.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'arduino_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drwise/arduino_ws/build/arduino_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drwise/arduino_ws/install/arduino_cpp_examples', 'merge_install': False, 'path': '/home/drwise/arduino_ws/src/arduino_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'arduino_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drwise/arduino_ws/build/arduino_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drwise/arduino_ws/install/arduino_description', 'merge_install': False, 'path': '/home/drwise/arduino_ws/src/arduino_description', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.277s] Level 5:colcon.colcon_core.verb:set package 'arduino_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.277s] DEBUG:colcon.colcon_core.verb:Building package 'arduino_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drwise/arduino_ws/build/arduino_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drwise/arduino_ws/install/arduino_py_examples', 'merge_install': False, 'path': '/home/drwise/arduino_ws/src/arduino_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.277s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/drwise/arduino_ws/src/arduino_cpp_examples' with build type 'ament_cmake'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drwise/arduino_ws/src/arduino_cpp_examples'
+[0.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/drwise/arduino_ws/src/arduino_description' with build type 'ament_cmake'
+[0.293s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drwise/arduino_ws/src/arduino_description'
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/drwise/arduino_ws/src/arduino_py_examples' with build type 'ament_python'
+[0.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_py_examples', 'ament_prefix_path')
+[0.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/hook/ament_prefix_path.ps1'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/hook/ament_prefix_path.dsv'
+[0.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/hook/ament_prefix_path.sh'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drwise/arduino_ws/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_cpp_examples -- -j12 -l12
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drwise/arduino_ws/build/arduino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_description -- -j12 -l12
+[0.717s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/drwise/arduino_ws/src/arduino_py_examples'
+[0.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drwise/arduino_ws/build/arduino_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_description -- -j12 -l12
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drwise/arduino_ws/build/arduino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_description
+[0.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drwise/arduino_ws/build/arduino_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_cpp_examples -- -j12 -l12
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drwise/arduino_ws/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_cpp_examples
+[0.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_cpp_examples)
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drwise/arduino_ws/build/arduino_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_cpp_examples
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples' for CMake module files
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples' for CMake config files
+[0.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_cpp_examples', 'cmake_prefix_path')
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/hook/cmake_prefix_path.ps1'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/hook/cmake_prefix_path.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/hook/cmake_prefix_path.sh'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/lib'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/bin'
+[0.810s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/lib/pkgconfig/arduino_cpp_examples.pc'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/lib/python3.12/site-packages'
+[0.811s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/bin'
+[0.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.sh'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.bash'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.zsh'
+[0.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drwise/arduino_ws/install/arduino_cpp_examples/share/colcon-core/packages/arduino_cpp_examples)
+[0.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_cpp_examples)
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples' for CMake module files
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples' for CMake config files
+[0.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_cpp_examples', 'cmake_prefix_path')
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/hook/cmake_prefix_path.ps1'
+[0.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/hook/cmake_prefix_path.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/hook/cmake_prefix_path.sh'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/lib'
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/bin'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/lib/pkgconfig/arduino_cpp_examples.pc'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/lib/python3.12/site-packages'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_cpp_examples/bin'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.dsv'
+[0.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.sh'
+[0.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.bash'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.zsh'
+[0.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drwise/arduino_ws/install/arduino_cpp_examples/share/colcon-core/packages/arduino_cpp_examples)
+[0.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_description)
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description' for CMake module files
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description' for CMake config files
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drwise/arduino_ws/build/arduino_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_description
+[0.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_description', 'cmake_prefix_path')
+[0.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/hook/cmake_prefix_path.ps1'
+[0.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/hook/cmake_prefix_path.dsv'
+[0.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/hook/cmake_prefix_path.sh'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description/bin'
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description/lib/pkgconfig/arduino_description.pc'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description/lib/python3.12/site-packages'
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description/bin'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.sh'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.bash'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.zsh'
+[0.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drwise/arduino_ws/install/arduino_description/share/colcon-core/packages/arduino_description)
+[0.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_description)
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description' for CMake module files
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description' for CMake config files
+[0.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_description', 'cmake_prefix_path')
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/hook/cmake_prefix_path.ps1'
+[0.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/hook/cmake_prefix_path.dsv'
+[0.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/hook/cmake_prefix_path.sh'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description/bin'
+[0.849s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description/lib/pkgconfig/arduino_description.pc'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description/lib/python3.12/site-packages'
+[0.850s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_description/bin'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.ps1'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.dsv'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.sh'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.bash'
+[0.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.zsh'
+[0.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drwise/arduino_ws/install/arduino_description/share/colcon-core/packages/arduino_description)
+[1.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drwise/arduino_ws/src/arduino_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drwise/arduino_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drwise/arduino_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/drwise/arduino_ws/build/arduino_py_examples/build install --record /home/drwise/arduino_ws/build/arduino_py_examples/install.log --single-version-externally-managed install_data
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_py_examples' for CMake module files
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drwise/arduino_ws/src/arduino_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drwise/arduino_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drwise/arduino_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/drwise/arduino_ws/build/arduino_py_examples/build install --record /home/drwise/arduino_ws/build/arduino_py_examples/install.log --single-version-externally-managed install_data
+[2.231s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_py_examples' for CMake config files
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_py_examples/lib'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_py_examples/bin'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_py_examples/lib/pkgconfig/arduino_py_examples.pc'
+[2.232s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_py_examples/lib/python3.12/site-packages'
+[2.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_py_examples', 'pythonpath')
+[2.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/hook/pythonpath.ps1'
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/hook/pythonpath.dsv'
+[2.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/hook/pythonpath.sh'
+[2.235s] Level 1:colcon.colcon_core.environment:checking '/home/drwise/arduino_ws/install/arduino_py_examples/bin'
+[2.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_py_examples)
+[2.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/package.ps1'
+[2.236s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/package.dsv'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/package.sh'
+[2.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/package.bash'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/drwise/arduino_ws/install/arduino_py_examples/share/arduino_py_examples/package.zsh'
+[2.238s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drwise/arduino_ws/install/arduino_py_examples/share/colcon-core/packages/arduino_py_examples)
+[2.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.241s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.258s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.258s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.285s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drwise/arduino_ws/install/local_setup.ps1'
+[2.287s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drwise/arduino_ws/install/_local_setup_util_ps1.py'
+[2.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drwise/arduino_ws/install/setup.ps1'
+[2.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drwise/arduino_ws/install/local_setup.sh'
+[2.292s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drwise/arduino_ws/install/_local_setup_util_sh.py'
+[2.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drwise/arduino_ws/install/setup.sh'
+[2.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drwise/arduino_ws/install/local_setup.bash'
+[2.294s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drwise/arduino_ws/install/setup.bash'
+[2.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drwise/arduino_ws/install/local_setup.zsh'
+[2.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drwise/arduino_ws/install/setup.zsh'

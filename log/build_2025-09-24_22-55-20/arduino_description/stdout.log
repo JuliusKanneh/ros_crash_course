@@ -1,0 +1,43 @@
+-- Install configuration: ""
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_base - Part 2.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Spacer small.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_G2_Left.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_Plate_2.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Gripper_ServoArm - Part 2.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_base - Part 1.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_Plate_1.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_G2_Right.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Gripper_ServoArm - Part 1.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_B2.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_A2.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_C3.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_C2 Triangle.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_A1.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_B1.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/Base.STL
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/Base.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate - BasePlate.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate - BaseClip.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/Base_Hub.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate - BaseCover.stl
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/urdf
+-- Installing: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/urdf/arduino_urldf.xacro
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/ament_index/resource_index/package_run_dependencies/arduino_description
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/ament_index/resource_index/parent_prefix_path/arduino_description
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/environment/path.sh
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/environment/path.dsv
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/local_setup.bash
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/local_setup.sh
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/local_setup.zsh
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/local_setup.dsv
+-- Installing: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.dsv
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/ament_index/resource_index/packages/arduino_description
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/cmake/arduino_descriptionConfig.cmake
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/cmake/arduino_descriptionConfig-version.cmake
+-- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.xml

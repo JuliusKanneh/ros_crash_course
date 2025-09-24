@@ -1,0 +1,36 @@
+[0.043s] Invoking command in '/home/drwise/arduino_ws/build/arduino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_description -- -j12 -l12
+[0.284s] Invoked command in '/home/drwise/arduino_ws/build/arduino_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_description -- -j12 -l12
+[0.303s] Invoking command in '/home/drwise/arduino_ws/build/arduino_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_description
+[0.320s] -- Install configuration: ""
+[0.320s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes
+[0.320s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector
+[0.321s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_base - Part 2.stl
+[0.321s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Spacer small.stl
+[0.321s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_G2_Left.stl
+[0.322s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_Plate_2.stl
+[0.322s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Gripper_ServoArm - Part 2.stl
+[0.322s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_base - Part 1.stl
+[0.322s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_Plate_1.stl
+[0.323s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_G2_Right.stl
+[0.323s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Gripper_ServoArm - Part 1.stl
+[0.323s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.324s]   file INSTALL cannot find
+[0.324s]   "/home/drwise/arduino_ws/src/arduino_description/base": No such file or
+[0.325s]   directory.
+[0.325s] 
+[0.326s] [0m
+[0.326s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms
+[0.326s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_B2.stl
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_A2.stl
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_C3.stl
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_C2 Triangle.stl
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_A1.stl
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_B1.stl
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/Base.STL
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/Base.stl
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate - BasePlate.stl
+[0.327s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate - BaseClip.stl
+[0.328s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/Base_Hub.stl
+[0.328s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate - BaseCover.stl
+[0.328s] Invoked command in '/home/drwise/arduino_ws/build/arduino_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_description

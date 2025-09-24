@@ -1,0 +1,37 @@
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_base - Part 2.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Spacer small.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_G2_Left.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_Plate_2.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Gripper_ServoArm - Part 2.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_base - Part 1.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_Plate_1.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Grip_G2_Right.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/End Effector/Gripper_ServoArm - Part 1.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_B2.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_A2.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_C3.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_C2 Triangle.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_A1.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/arms/Arm_B1.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/Base.STL
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/Base.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/Base_Hub.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate_BasePlate.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate_BaseCover.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/meshes/base/MountPlate_BaseClip.stl
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/urdf/arduino_urldf.xacro
+/home/drwise/arduino_ws/install/arduino_description/share/ament_index/resource_index/package_run_dependencies/arduino_description
+/home/drwise/arduino_ws/install/arduino_description/share/ament_index/resource_index/parent_prefix_path/arduino_description
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/environment/ament_prefix_path.sh
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/environment/ament_prefix_path.dsv
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/environment/path.sh
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/environment/path.dsv
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/local_setup.bash
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/local_setup.sh
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/local_setup.zsh
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/local_setup.dsv
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.dsv
+/home/drwise/arduino_ws/install/arduino_description/share/ament_index/resource_index/packages/arduino_description
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/cmake/arduino_descriptionConfig.cmake
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/cmake/arduino_descriptionConfig-version.cmake
+/home/drwise/arduino_ws/install/arduino_description/share/arduino_description/package.xml

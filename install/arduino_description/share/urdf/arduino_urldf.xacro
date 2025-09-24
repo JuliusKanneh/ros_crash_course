@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xcro" name="arduino">
+
+    <link name="world"/> 
+
+    <link name="base_link">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"></origin>
+            <geometry>
+                <!-- <box size="0.1 0.1 0.1"/> -->
+                <mesh filename="package://arduino_description/meshes/Base.STL" scale="0.01 0.01 0.01" />
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="virtual_joint" type="fixed">
+        <parent link="world" />
+        <child link="base_link" />
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+    </joint>
+
+</robot>

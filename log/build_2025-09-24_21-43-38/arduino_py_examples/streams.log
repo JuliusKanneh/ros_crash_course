@@ -1,0 +1,22 @@
+[2.104s] Invoking command in '/home/drwise/arduino_ws/src/arduino_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drwise/arduino_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drwise/arduino_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/drwise/arduino_ws/build/arduino_py_examples/build install --record /home/drwise/arduino_ws/build/arduino_py_examples/install.log --single-version-externally-managed install_data
+[2.434s] running egg_info
+[2.457s] writing ../../build/arduino_py_examples/arduino_py_examples.egg-info/PKG-INFO
+[2.457s] writing dependency_links to ../../build/arduino_py_examples/arduino_py_examples.egg-info/dependency_links.txt
+[2.458s] writing entry points to ../../build/arduino_py_examples/arduino_py_examples.egg-info/entry_points.txt
+[2.458s] writing requirements to ../../build/arduino_py_examples/arduino_py_examples.egg-info/requires.txt
+[2.458s] writing top-level names to ../../build/arduino_py_examples/arduino_py_examples.egg-info/top_level.txt
+[2.512s] reading manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[2.513s] writing manifest file '../../build/arduino_py_examples/arduino_py_examples.egg-info/SOURCES.txt'
+[2.513s] running build
+[2.513s] running build_py
+[2.514s] running install
+[2.521s] running install_lib
+[2.549s] running install_data
+[2.549s] running install_egg_info
+[2.568s] removing '/home/drwise/arduino_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[2.568s] Copying ../../build/arduino_py_examples/arduino_py_examples.egg-info to /home/drwise/arduino_ws/install/arduino_py_examples/lib/python3.12/site-packages/arduino_py_examples-0.0.0-py3.12.egg-info
+[2.569s] running install_scripts
+[2.708s] Installing simple_publisher script to /home/drwise/arduino_ws/install/arduino_py_examples/lib/arduino_py_examples
+[2.708s] Installing simple_subscriber script to /home/drwise/arduino_ws/install/arduino_py_examples/lib/arduino_py_examples
+[2.709s] writing list of installed files to '/home/drwise/arduino_ws/build/arduino_py_examples/install.log'
+[2.749s] Invoked command in '/home/drwise/arduino_ws/src/arduino_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/drwise/arduino_ws/build/arduino_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drwise/arduino_ws/install/arduino_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_py_examples build --build-base /home/drwise/arduino_ws/build/arduino_py_examples/build install --record /home/drwise/arduino_ws/build/arduino_py_examples/install.log --single-version-externally-managed install_data

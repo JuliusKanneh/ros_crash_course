@@ -1,0 +1,24 @@
+[0.027s] Invoking command in '/home/drwise/arduino_ws/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_cpp_examples -- -j12 -l12
+[0.130s] [ 50%] Built target simple_subscriber
+[0.130s] [100%] Built target simple_publisher
+[0.242s] Invoked command in '/home/drwise/arduino_ws/build/arduino_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_cpp_examples -- -j12 -l12
+[0.256s] Invoking command in '/home/drwise/arduino_ws/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_cpp_examples
+[0.268s] -- Install configuration: ""
+[0.268s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_publisher
+[0.269s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_subscriber
+[0.269s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduino_cpp_examples
+[0.269s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduino_cpp_examples
+[0.270s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.sh
+[0.270s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.dsv
+[0.270s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.sh
+[0.270s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.dsv
+[0.270s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.bash
+[0.270s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.sh
+[0.271s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.zsh
+[0.271s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.dsv
+[0.271s] -- Installing: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.dsv
+[0.271s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/packages/arduino_cpp_examples
+[0.271s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig.cmake
+[0.271s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig-version.cmake
+[0.272s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.xml
+[0.273s] Invoked command in '/home/drwise/arduino_ws/build/arduino_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_cpp_examples
