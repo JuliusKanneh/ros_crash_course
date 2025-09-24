@@ -1,0 +1,17 @@
+/home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_publisher
+/home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_subscriber
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduino_cpp_examples
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduino_cpp_examples
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.sh
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.dsv
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.sh
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.dsv
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.bash
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.sh
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.zsh
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.dsv
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.dsv
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/packages/arduino_cpp_examples
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig.cmake
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig-version.cmake
+/home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.xml

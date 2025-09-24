@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/drwise/arduino_ws/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_cpp_examples -- -j12 -l12
+[0.170s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.180s] [ 75%] Built target simple_publisher
+[0.199s] [01m[K/home/drwise/arduino_ws/src/arduino_cpp_examples/src/simple_subscriber.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.200s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.200s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.200s] compilation terminated.
+[0.208s] gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:76: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o] Error 1
+[0.210s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_subscriber.dir/all] Error 2
+[0.211s] gmake: *** [Makefile:146: all] Error 2
+[0.419s] Invoked command in '/home/drwise/arduino_ws/build/arduino_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_cpp_examples -- -j12 -l12

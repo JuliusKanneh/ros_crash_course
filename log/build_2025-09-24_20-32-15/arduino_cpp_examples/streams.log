@@ -1,0 +1,48 @@
+[0.017s] Invoking command in '/home/drwise/arduino_ws/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_cpp_examples -- -j12 -l12
+[0.060s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.363s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.391s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.400s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.494s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.496s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.614s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.690s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.705s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.820s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.821s] -- Configured cppcheck include dirs: 
+[0.821s] -- Configured cppcheck exclude dirs and/or files: 
+[0.821s] -- Added test 'lint_cmake' to check CMake code style
+[0.822s] -- Added test 'uncrustify' to check C / C++ code style
+[0.823s] -- Configured uncrustify additional arguments: 
+[0.823s] -- Added test 'xmllint' to check XML markup files
+[0.823s] -- Configuring done (0.8s)
+[0.840s] -- Generating done (0.0s)
+[0.844s] -- Build files have been written to: /home/drwise/arduino_ws/build/arduino_cpp_examples
+[0.898s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[0.912s] [ 75%] Built target simple_publisher
+[10.839s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[11.221s] [100%] Built target simple_subscriber
+[11.249s] Invoked command in '/home/drwise/arduino_ws/build/arduino_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/drwise/arduino_ws/build/arduino_cpp_examples -- -j12 -l12
+[11.269s] Invoking command in '/home/drwise/arduino_ws/build/arduino_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_cpp_examples
+[11.291s] -- Install configuration: ""
+[11.291s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_publisher
+[11.292s] -- Installing: /home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_subscriber
+[11.300s] -- Set non-toolchain portion of runtime path of "/home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_subscriber" to ""
+[11.301s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduino_cpp_examples
+[11.301s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduino_cpp_examples
+[11.302s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.sh
+[11.302s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.dsv
+[11.302s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.sh
+[11.303s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/path.dsv
+[11.303s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.bash
+[11.304s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.sh
+[11.304s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.zsh
+[11.304s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/local_setup.dsv
+[11.304s] -- Installing: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.dsv
+[11.306s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/packages/arduino_cpp_examples
+[11.307s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig.cmake
+[11.307s] -- Up-to-date: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/cmake/arduino_cpp_examplesConfig-version.cmake
+[11.309s] -- Installing: /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/package.xml
+[11.309s] Invoked command in '/home/drwise/arduino_ws/build/arduino_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drwise/arduino_ws/install/arduino_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/drwise/arduino_ws/build/arduino_cpp_examples

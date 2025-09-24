@@ -1,0 +1,11 @@
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/uninstall.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/arduino_cpp_examples_uninstall.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/simple_publisher.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/simple_subscriber.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/test.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/edit_cache.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/rebuild_cache.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/list_install_components.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/install.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/install/local.dir
+/home/drwise/arduino_ws/build/arduino_cpp_examples/CMakeFiles/install/strip.dir
