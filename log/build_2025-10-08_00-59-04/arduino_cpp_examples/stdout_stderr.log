@@ -1,0 +1,34 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/drwise/arduino_ws/build/arduino_cpp_examples
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_param.dir/src/simple_param.cpp.o[0m
+[ 50%] Built target simple_subscriber
+[ 83%] Built target simple_publisher
+[01m[K/home/drwise/arduino_ws/src/arduino_cpp_examples/src/simple_param.cpp:[m[K In constructor ‘[01m[KSimpleParam::[01;32m[KSimpleParam[m[K()[m[K’:
+[01m[K/home/drwise/arduino_ws/src/arduino_cpp_examples/src/simple_param.cpp:15:54:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krcl_interfaces::msg::SetParametersResult SimpleParam::[01;32m[KparamChangeCallback[m[K(const std::vector<rclcpp::Parameter>&)[m[K’
+   15 |             add_on_set_parameters_callback(std::bind([01;31m[KparamChangeCallback[m[K, this, _1));
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drwise/arduino_ws/src/arduino_cpp_examples/src/simple_param.cpp:21:50:[m[K [01;36m[Knote: [m[Kdeclared here
+   21 |         rcl_interfaces::msg::SetParametersResult [01;36m[KparamChangeCallback[m[K(const std::vector<rclcpp::Parameter> &params){
+      |                                                  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_param.dir/build.make:76: CMakeFiles/simple_param.dir/src/simple_param.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_param.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

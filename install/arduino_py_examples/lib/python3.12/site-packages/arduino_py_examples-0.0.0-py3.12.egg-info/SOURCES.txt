@@ -9,6 +9,7 @@ setup.py
 ../../build/arduino_py_examples/arduino_py_examples.egg-info/top_level.txt
 ../../build/arduino_py_examples/arduino_py_examples.egg-info/zip-safe
 arduino_py_examples/__init__.py
+arduino_py_examples/simple_param.py
 arduino_py_examples/simple_publisher.py
 arduino_py_examples/simple_subscriber.py
 resource/arduino_py_examples

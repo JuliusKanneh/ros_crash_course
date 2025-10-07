@@ -1,0 +1,10 @@
+[01m[K/home/drwise/arduino_ws/src/arduino_cpp_examples/src/simple_param.cpp:[m[K In constructor ‘[01m[KSimpleParam::[01;32m[KSimpleParam[m[K()[m[K’:
+[01m[K/home/drwise/arduino_ws/src/arduino_cpp_examples/src/simple_param.cpp:15:54:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krcl_interfaces::msg::SetParametersResult SimpleParam::[01;32m[KparamChangeCallback[m[K(const std::vector<rclcpp::Parameter>&)[m[K’
+   15 |             add_on_set_parameters_callback(std::bind([01;31m[KparamChangeCallback[m[K, this, _1));
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/drwise/arduino_ws/src/arduino_cpp_examples/src/simple_param.cpp:21:50:[m[K [01;36m[Knote: [m[Kdeclared here
+   21 |         rcl_interfaces::msg::SetParametersResult [01;36m[KparamChangeCallback[m[K(const std::vector<rclcpp::Parameter> &params){
+      |                                                  [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_param.dir/build.make:76: CMakeFiles/simple_param.dir/src/simple_param.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_param.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

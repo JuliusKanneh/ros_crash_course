@@ -223,6 +223,43 @@ simple_subscriber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber.dir/build.make CMakeFiles/simple_subscriber.dir/build
 .PHONY : simple_subscriber/fast
 
+#=============================================================================
+# Target rules for targets named simple_param
+
+# Build rule for target.
+simple_param: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_param
+.PHONY : simple_param
+
+# fast build rule for target.
+simple_param/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_param.dir/build.make CMakeFiles/simple_param.dir/build
+.PHONY : simple_param/fast
+
+src/simple_param.o: src/simple_param.cpp.o
+.PHONY : src/simple_param.o
+
+# target to build an object file
+src/simple_param.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_param.dir/build.make CMakeFiles/simple_param.dir/src/simple_param.cpp.o
+.PHONY : src/simple_param.cpp.o
+
+src/simple_param.i: src/simple_param.cpp.i
+.PHONY : src/simple_param.i
+
+# target to preprocess a source file
+src/simple_param.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_param.dir/build.make CMakeFiles/simple_param.dir/src/simple_param.cpp.i
+.PHONY : src/simple_param.cpp.i
+
+src/simple_param.s: src/simple_param.cpp.s
+.PHONY : src/simple_param.s
+
+# target to generate assembly for a file
+src/simple_param.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_param.dir/build.make CMakeFiles/simple_param.dir/src/simple_param.cpp.s
+.PHONY : src/simple_param.cpp.s
+
 src/simple_publisher.o: src/simple_publisher.cpp.o
 .PHONY : src/simple_publisher.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... arduino_cpp_examples_uninstall"
 	@echo "... uninstall"
+	@echo "... simple_param"
 	@echo "... simple_publisher"
 	@echo "... simple_subscriber"
+	@echo "... src/simple_param.o"
+	@echo "... src/simple_param.i"
+	@echo "... src/simple_param.s"
 	@echo "... src/simple_publisher.o"
 	@echo "... src/simple_publisher.i"
 	@echo "... src/simple_publisher.s"

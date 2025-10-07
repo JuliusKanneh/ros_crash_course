@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'simple_publisher = arduino_py_examples.simple_publisher:main',
-            'simple_subscriber = arduino_py_examples.simple_subscriber:main'
+            'simple_subscriber = arduino_py_examples.simple_subscriber:main',
+            'simple_param = arduino_py_examples.simple_param:main'
         ],
     },
 )

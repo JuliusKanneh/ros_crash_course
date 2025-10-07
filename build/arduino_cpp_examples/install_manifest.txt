@@ -1,5 +1,6 @@
 /home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_publisher
 /home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_subscriber
+/home/drwise/arduino_ws/install/arduino_cpp_examples/lib/arduino_cpp_examples/simple_param
 /home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduino_cpp_examples
 /home/drwise/arduino_ws/install/arduino_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduino_cpp_examples
 /home/drwise/arduino_ws/install/arduino_cpp_examples/share/arduino_cpp_examples/environment/ament_prefix_path.sh
